@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "extends": ["eslint-config-airbnb-base", "eslint-config-airbnb-base/legacy"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-plusplus": "off",
+    "max-len": "off",
+    "global-require": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "no-return-assign": "off",
+    "func-names": "off",
+    "prefer-destructuring": "off",
+    "no-empty": ["error", { "allowEmptyCatch": true }],
+    "lines-between-class-members": "off",
+    "no-restricted-syntax": "off",
+    "no-underscore-dangle": "off",
+    "no-param-reassign": "off",
+    "no-mixed-operators": "off",
+    "no-bitwise": "off",
+    "no-multi-assign": "off",
+    "no-continue": "off"
+  },
+  "parser": "@babel/eslint-parser"
+}
