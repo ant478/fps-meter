@@ -104,11 +104,11 @@ Tool is configured through setting data-attributes to the `script` element:
 // for console usage
 script = document.createElement('script');
 script.src = 'https://cdn.jsdelivr.net/npm/@ant478/fps-meter@latest/dist/index.js';
-script.setSttribute('data-show', '');
-script.setSttribute('data-log', '');
-script.setSttribute('data-class-name', 'fps-meter-class');
-script.setSttribute('data-interval', '1000');
-script.setSttribute('data-namespace', 'fpsMeasurer');
+script.setAttribute('data-show', '');
+script.setAttribute('data-log', '');
+script.setAttribute('data-class-name', 'fps-meter-class');
+script.setAttribute('data-interval', '1000');
+script.setAttribute('data-namespace', 'fpsMeasurer');
 document.head.appendChild(script);
 ```
 
