@@ -5,8 +5,5 @@ module.exports = {
       corejs: '3.37.1',
       modules: false
     }]
-  ],
-  plugins: [
-    '@babel/plugin-transform-runtime'
   ]
 };

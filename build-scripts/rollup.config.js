@@ -27,7 +27,7 @@ export default {
       sourceMap: false
     }),
     babel({
-      babelHelpers: 'runtime'
+      babelHelpers: 'bundled'
     }),
     postcss({
       preprocessor: (content, id) => new Promise((resolve) => {
